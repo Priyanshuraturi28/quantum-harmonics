@@ -60,16 +60,31 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* NEWSLETTER */}
+        {/* NEWSLETTER (COMPLETED) */}
         <div>
           <h4 className="mb-4 font-semibold text-zinc-900 dark:text-white">
             Newsletter
           </h4>
-          <input
-            type="email"
-            placeholder="Your email"
-            className="w-full rounded-md border border-zinc-300 bg-transparent px-4 py-3 focus:outline-none dark:border-zinc-700"
-          />
+
+          <form className="space-y-3">
+            <input
+              type="email"
+              required
+              placeholder="Your email"
+              className="w-full rounded-md border border-zinc-300 bg-transparent px-4 py-3 text-sm
+                         focus:outline-none focus:ring-2 focus:ring-zinc-400
+                         dark:border-zinc-700"
+            />
+
+            <button
+              type="submit"
+              className="w-full rounded-md bg-black px-4 py-3 text-sm font-medium text-white
+                         hover:bg-zinc-800 transition
+                         dark:bg-white dark:text-black dark:hover:bg-zinc-200"
+            >
+              Subscribe
+            </button>
+          </form>
         </div>
 
       </div>

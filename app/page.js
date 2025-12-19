@@ -17,7 +17,7 @@ export default function Home() {
         <div className="relative z-10 flex min-h-screen items-center px-6 md:px-10">
           <div className="max-w-2xl text-white">
             <h1 className="mb-8 md:mb-10 text-4xl sm:text-5xl md:text-[4.5rem] font-black leading-tight md:leading-[1.05]">
-              Hear the Sound.<br />
+              Hear the Art.<br />
               <span className="text-zinc-300">Feel the Tech.</span>
             </h1>
 
