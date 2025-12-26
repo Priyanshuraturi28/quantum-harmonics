@@ -58,23 +58,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white text-zinc-900 dark:bg-black dark:text-zinc-50">
 
-      {/* NAVBAR */}
-      <header className="fixed top-0 z-50 w-full border-b bg-white/80 backdrop-blur dark:bg-black/80">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <h1 className="text-xl font-semibold tracking-wide">
-            Quantum Harmonics
-          </h1>
-          <nav className="hidden gap-8 text-sm md:flex">
-            <Link href="/">Home</Link>
-            <Link href="/explore">Explore</Link>
-            <Link href="/about">Our History</Link>
-            <Link href="/contact" className="text-zinc-900 dark:text-white">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
-
+      
       {/* CONTACT SECTION */}
       <section className="relative pt-40 pb-28">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-zinc-100/60 to-white dark:from-zinc-900/40 dark:to-black" />
